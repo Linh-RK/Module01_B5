@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./10.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form>
+        <div class="title">Billing address</div>
+        <div class="name">
+          <div class="input-box">
+            <label for="first-name">First name</label><br />
+            <input type="text" placeholder="first-name" required />
+          </div>
+          <div class="input-box">
+            <label for="last-name">Last name</label><br />
+            <input type="text" placeholder="last-name" required />
+          </div>
+        </div>
+        <div class="input-box">
+          <label for="user-name">Username</label><br />
+          <input type="text" placeholder="user-name" required />
+        </div>
+        <div class="input-box" username>
+          <label for="email">Email (Optional)</label><br />
+          <input type="text" placeholder="email" required />
+        </div>
+        <div class="input-box">
+          <label for="address">Address</label><br />
+          <input type="text" placeholder="address" required />
+        </div>
+        <div class="input-box">
+          <label for="address2">Address 2 (Optional)</label><br />
+          <input type="text" placeholder="address2" required />
+        </div>
+        <!--  -->
+        <div class="csz">
+          <div class="input-box">
+            <label for="country">Country</label><br />
+            <select name="country" id="country">
+              <option value="">Choose...</option>
+            </select>
+          </div>
+          <div class="input-box">
+            <label for="state">State</label><br />
+            <select name="state" id="state">
+              <option value="">Choose...</option>
+            </select>
+          </div>
+          <div class="input-box">
+            <label for="zip">Zip</label><br />
+            <input type="text" placeholder="" required />
+          </div>
+        </div>
+        <div class="ship">
+          <input type="checkbox" name="" id="" />Shipping address is the same as
+          my billing address <br />
+          <input type="checkbox" name="" id="" />Save this information for the
+          next time
+        </div>
+        <div class="title">Payment</div>
+        <div class="input-box payment-method">
+          <input type="radio" name="credit-card" id="credit-card" />Credit
+          card<br />
+          <input type="radio" name="debit-card" id="debit-card" />Debit card<br />
+          <input type="radio" name="paypal" id="paypal" />Paypal<br />
+        </div>
+        <div class="name-num">
+          <div class="input-box">
+            <label for="">Name on card</label><br />
+            <input type="text" name="" id="" />
+            <div style="color: gray; font-size: 13px">
+              Full name as displayed on card
+            </div>
+          </div>
+          <div class="input-box">
+            <label for="">Credit card number</label><br />
+            <input type="text" name="" id="" />
+          </div>
+        </div>
+        <div class="exp-cvv">
+          <div class="exp">
+            <label for="">Expiration</label><br />
+            <input type="text" name="expiration" id="expiration" /> <br />
+          </div>
+          <div class="cvv">
+            <label for="cvv">CVV</label><br />
+            <input type="text" name="cvv" id="cvv" />
+          </div>
+        </div>
+        <input
+          class="submit"
+          type="submit"
+          name="submit"
+          id="submit"
+          value="Continue to checkout"
+        />
+      </form>
+    </div>
+  </body>
+</html>

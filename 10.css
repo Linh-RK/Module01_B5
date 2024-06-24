@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.title {
+  font-size: 22px;
+  margin: 15px 0px 15px 0px;
+}
+form {
+  width: 500px;
+  background-color: #f8f9fa;
+  padding: 15px;
+}
+.input-box {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.container .name,
+.name-num {
+  display: flex;
+  width: 100%;
+  gap: 20px;
+}
+.csz {
+  display: flex;
+  gap: 20px;
+}
+.exp-cvv {
+  display: flex;
+  gap: 20px;
+}
+input,
+select {
+  width: 100%;
+  margin-top: 10px;
+  height: 30px;
+}
+.payment-method input,
+.ship input {
+  width: 15px;
+  height: 13px;
+}
+.ship {
+  margin: 20px 0 30px 0;
+}
+.submit {
+  color: white;
+  background-color: #0870fd;
+  border-radius: 5px;
+  height: 35px;
+  font-size: 16px;
+}
